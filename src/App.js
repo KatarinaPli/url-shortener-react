@@ -1,11 +1,12 @@
+import Header from "./components/Header";
+import "./index.css";
+
 
 export default function App() {
   return (
     <div className="App">
-     
-        
-<h1>Hello!</h1>
-  
+      
+      <Header />
     </div>
   );
 }
