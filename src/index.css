@@ -55,6 +55,14 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.deco-line {
+  width: 60%;
+  position: absolute;
+  background-color: #06b6d4;
+  padding: 4px;
+      bottom: 65%;
+    left: 30%;
+}
 @media (min-width: 1024px) {
   .max-width {
     margin-left: auto;
