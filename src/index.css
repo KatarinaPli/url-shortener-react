@@ -22,17 +22,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .max-width {
- 
-      padding-left: 1.25rem/* 20px */;
-    padding-right: 1.25rem/* 20px */;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .btn-defsett {
   background-color: #06b6d4;
-  padding-top: 0.5rem /* 8px */;
-  padding-bottom: 0.5rem /* 8px */;
-  padding-left: 1rem /* 16px */;
-  padding-right: 1rem /* 16px */;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-duration: 150ms;
@@ -41,25 +40,35 @@ body {
 .btn-cta:hover {
   opacity: 0.75;
 }
-
-
-
-
+.Boost {
+  background-color: hsl(257, 27%, 26%);
+  height: 280px;
+  position: relative;
+}
+.Boost img {
+  width: 100%;
+  height: 280px;
+}
+.Boost .inside-boost {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media (min-width: 1024px) {
-    .max-width {
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .max-width {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (min-width: 1280px) {
-    .max-width {
-        max-width: 72rem/* 1152px */;
-    }
+  .max-width {
+    max-width: 72rem /* 1152px */;
+  }
 }
 @media (min-width: 1536px) {
-    .max-width {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+  .max-width {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
-
