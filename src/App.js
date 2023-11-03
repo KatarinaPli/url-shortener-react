@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Showcase from "./components/Showcase";
+import Footer from "./components/Footer";
 import "./index.css";
 
 export default function App() {
@@ -7,7 +8,7 @@ export default function App() {
     <div className="App">
       <Header />
       <Showcase />
-      < Footer />
+      <Footer />
     </div>
   );
 }
