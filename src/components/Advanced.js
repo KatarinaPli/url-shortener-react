@@ -18,7 +18,7 @@ export default function Advanced() {
         </p>
       </article>
       <div className="grid grid-cols-1 md:grid-cols-3 relative mt-25 lg:content-around">
-        <div className="deco-line"></div>
+        <div className="deco-line sm:hidden md:block"></div>
         <article className="card bg-white p-7 rounded-md relative m-10  lg:h-64 ">
           {" "}
           <img src={brand} alt="Brand recodnition" className="" />
