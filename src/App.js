@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import "./index.css";
 import Boost from "./components/Boost";
 import Advanced from "./components/Advanced";
-import Sh from "./components/Sh";
+import Shortener from "./components/Shortener";
 
 //import TestComp from "./components/TestComp";
 
@@ -14,7 +14,7 @@ export default function App() {
       <Header />
       <Showcase />
 
-      <Sh />
+      <Shortener />
       <Advanced />
       <Boost />
       <Footer />
